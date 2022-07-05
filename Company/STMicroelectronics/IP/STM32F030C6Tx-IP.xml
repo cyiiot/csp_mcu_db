@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+	copyright 2021 misfra team
+	according to the apache-2.0 license, (hereinafter referred to as "license");
+
+	unless required by applicable law or agreed to in writing,
+	software distributed under the license is distributed on an "as is" basis,
+	without warranties or conditions of any kind, either express or implied.
+	see the license for the specific language governing permissions and limitations under the license.
+-->
+<IP>
+	<GPIO>
+		<Modes>
+			<Mode Type="Input" Name="Input-Std">
+				<Parameters>
+					<Parameter Enumerate="md_gpio_pull_t">
+						<Values>
+							<Value>MD_GPIO_PULL_NO</Value>
+							<Value>MD_GPIO_PULL_UP</Value>
+							<Value>MD_GPIO_PULL_DOWN</Value>
+						</Values>
+					</Parameter>
+					<Parameter Enumerate="md_gpio_mode_t">
+						<Values>
+							<Value>MD_GPIO_MODE_INPUT</Value>
+						</Values>
+					</Parameter>
+				</Parameters>
+			</Mode>
+			<Mode Type="Output" Name="Output-Std">
+				<Parameters>
+					<Parameter Enumerate="md_gpio_level_t">
+						<Values>
+							<Value>MD_GPIO_LEVEL_LOW</Value>
+							<Value>MD_GPIO_LEVEL_HIGH</Value>
+						</Values>
+					</Parameter>
+					<Parameter Enumerate="md_gpio_speed_t">
+						<Values>
+							<Value>MD_GPIO_SPEED_LOW</Value>
+							<Value>MD_GPIO_SPEED_MEDIUM</Value>
+							<Value>MD_GPIO_SPEED_HIGH</Value>
+						</Values>
+					</Parameter>
+					<Parameter Enumerate="md_gpio_pull_t">
+						<Values>
+							<Value>MD_GPIO_PULL_NO</Value>
+							<Value>MD_GPIO_PULL_UP</Value>
+							<Value>MD_GPIO_PULL_DOWN</Value>
+						</Values>
+					</Parameter>
+					<Parameter Enumerate="md_gpio_mode_t">
+						<Values>
+							<Value>MD_GPIO_MODE_OUTPUT_PP</Value>
+							<Value>MD_GPIO_MODE_OUTPUT_OD</Value>
+						</Values>
+					</Parameter>
+				</Parameters>
+			</Mode>
+			<Mode Type="Analog" Name="Analog-Std">
+				<Parameters>
+					<Parameter Enumerate="md_gpio_pull_t">
+						<Values>
+							<Value>MD_GPIO_PULL_NO</Value>
+						</Values>
+					</Parameter>
+					<Parameter Enumerate="md_gpio_mode_t">
+						<Values>
+							<Value>MD_GPIO_MODE_ANALOG</Value>
+						</Values>
+					</Parameter>
+				</Parameters>
+			</Mode>
+			<Mode Type="EVENTOUT" Name="Eventout-Std">
+				<Parameters>
+					<Parameter Enumerate="md_gpio_pull_t">
+						<Values>
+							<Value>MD_GPIO_PULL_NO</Value>
+							<Value>MD_GPIO_PULL_UP</Value>
+							<Value>MD_GPIO_PULL_DOWN</Value>
+						</Values>
+					</Parameter>
+					<Parameter Enumerate="md_gpio_speed_t">
+						<Values>
+							<Value>MD_GPIO_SPEED_LOW</Value>
+							<Value>MD_GPIO_SPEED_MEDIUM</Value>
+							<Value>MD_GPIO_SPEED_HIGH</Value>
+						</Values>
+					</Parameter>
+					<Parameter Enumerate="md_gpio_mode_t">
+						<Values>
+							<Value>MD_GPIO_MODE_AF_PP</Value>
+						</Values>
+					</Parameter>
+				</Parameters>
+			</Mode>
+			<Mode Type="EXTI" Name="Exti-Std">
+				<Parameters>
+					<Parameter Enumerate="md_gpio_pull_t">
+						<Values>
+							<Value>MD_GPIO_PULL_NO</Value>
+							<Value>MD_GPIO_PULL_UP</Value>
+							<Value>MD_GPIO_PULL_DOWN</Value>
+						</Values>
+					</Parameter>
+					<Parameter Enumerate="md_gpio_mode_t">
+						<Values>
+							<Value>MD_GPIO_MODE_IRQ_RISING</Value>
+							<Value>MD_GPIO_MODE_IRQ_FALLING</Value>
+							<Value>MD_GPIO_MODE_IRQ_RISING_FALLING</Value>
+							<Value>MD_GPIO_MODE_EVT_RISING</Value>
+							<Value>MD_GPIO_MODE_EVT_FALLING</Value>
+							<Value>MD_GPIO_MODE_EVT_RISING_FALLING</Value>
+						</Values>
+					</Parameter>
+				</Parameters>
+			</Mode>
+		</Modes>
+	</GPIO>
+</IP>
