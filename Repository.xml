@@ -38,7 +38,7 @@
                     <Lines>
                         <Line Name="STM32F401">
                             <MCU>
-                                <Mcu Name="STM32F401RETx" Package="LQFP64" Core="Arm Cortex-M4" Frequency="84" Ram="96" IO="50" Flash="512">
+                                <MCU Name="STM32F401RETx" Package="LQFP64" Core="Arm Cortex-M4" Frequency="84" Ram="96" IO="50" Flash="512">
                                     <Voltage Max="3.6" Min="1.7" />
                                     <Current Lowest="1.8" Run="137.0" />
                                     <Temperature Max="105.0" Min="-40.0" />
@@ -52,7 +52,7 @@
                                     <Peripheral Type="Timer 32-bit" Number="2" />
                                     <Peripheral Type="USART" Number="3" />
                                     <Peripheral Type="USB OTG_FS" Number="1" />
-                                </Mcu>
+                                </MCU>
                             </MCU>
                         </Line>
                     </Lines>
