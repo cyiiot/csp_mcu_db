@@ -9,59 +9,59 @@
     see the license for the specific language governing permissions and limitations under the license.
 -->
 <Repository>
-	<Companies>
-		<Company Name="STMicroelectronics">
-			<Series>
-				<Series Name="STM32F0">
-					<Lines>
-						<Line Name="STM32F0x0 Value Line">
-							<MCU>
-								<MCU Name="STM32F030C6Tx" Package="LQFP48" Core="Arm Cortex-M0" Frequency="48" Ram="4" IO="39" Flash="32">
-									<Voltage Max="3.6" Min="2.4" />
-									<Current Lowest="3.4" Run="250.0" />
-									<Temperature Max="85.0" Min="-40.0" />
-									<Peripherals>
-										<Peripheral Type="ADC 12-bit" Number="10" />
-										<Peripheral Type="I2C" Number="1" />
-										<Peripheral Type="IRTIM" Number="1" />
-										<Peripheral Type="RTC" Number="1" />
-										<Peripheral Type="SPI" Number="1" />
-										<Peripheral Type="Timer 16-bit" Number="5" />
-										<Peripheral Type="USART" Number="1" />
-									</Peripherals>
-								</MCU>
-							</MCU>
-						</Line>
-					</Lines>
-				</Series>
-			</Series>
-		</Company>
-		<Company Name="GigaDevice">
-			<Series>
-				<Series Name="GD32F1">
-					<Lines>
-						<Line Name="GD32F101 Value Line">
-							<MCU>
-								<MCU Name="GD32F101T4U6" Package="QFN36" Core="Arm Cortex-M3" Frequency="56" Ram="4" IO="26" Flash="16">
-									<Voltage Max="3.6" Min="2.6" />
-									<Current Lowest="6.5" Run="1700.0" />
-									<Temperature Max="85.0" Min="-40.0" />
-									<Peripherals>
-										<Peripheral Type="ADC 12-bit" Number="10" />
-										<Peripheral Type="GPTM(16 bit)" Number="2" />
-										<Peripheral Type="SysTick" Number="1" />
-										<Peripheral Type="Watchdog" Number="2" />
-										<Peripheral Type="RTC" Number="1" />
-										<Peripheral Type="USART" Number="2" />
-										<Peripheral Type="I2C" Number="1" />
-										<Peripheral Type="SPI" Number="1" />
-									</Peripherals>
-								</MCU>
-							</MCU>
-						</Line>
-					</Lines>
-				</Series>
-			</Series>
-		</Company>
-	</Companies>
+    <Companies>
+        <Company Name="STMicroelectronics">
+            <Series>
+                <Series Name="STM32F0">
+                    <Lines>
+                        <Line Name="STM32F0x0 Value Line">
+                            <MCU>
+                                <MCU Name="STM32F030C6Tx" Package="LQFP48" Core="Arm Cortex-M0" Frequency="48" Ram="4" IO="39" Flash="32">
+                                    <Voltage Max="3.6" Min="2.4" />
+                                    <Current Lowest="3.4" Run="250.0" />
+                                    <Temperature Max="85.0" Min="-40.0" />
+                                    <Peripherals>
+                                        <Peripheral Type="ADC 12-bit" Number="10" />
+                                        <Peripheral Type="I2C" Number="1" />
+                                        <Peripheral Type="IRTIM" Number="1" />
+                                        <Peripheral Type="RTC" Number="1" />
+                                        <Peripheral Type="SPI" Number="1" />
+                                        <Peripheral Type="Timer 16-bit" Number="5" />
+                                        <Peripheral Type="USART" Number="1" />
+                                    </Peripherals>
+                                </MCU>
+                            </MCU>
+                        </Line>
+                    </Lines>
+                </Series>
+            </Series>
+        </Company>
+        <Company Name="GigaDevice">
+            <Series>
+                <Series Name="GD32F1">
+                    <Lines>
+                        <Line Name="GD32F101 Value Line">
+                            <MCU>
+                                <MCU Name="GD32F101T4U6" Package="QFN36" Core="Arm Cortex-M3" Frequency="56" Ram="4" IO="26" Flash="16">
+                                    <Voltage Max="3.6" Min="2.6" />
+                                    <Current Lowest="6.5" Run="1700.0" />
+                                    <Temperature Max="85.0" Min="-40.0" />
+                                    <Peripherals>
+                                        <Peripheral Type="ADC 12-bit" Number="10" />
+                                        <Peripheral Type="GPTM(16 bit)" Number="2" />
+                                        <Peripheral Type="SysTick" Number="1" />
+                                        <Peripheral Type="Watchdog" Number="2" />
+                                        <Peripheral Type="RTC" Number="1" />
+                                        <Peripheral Type="USART" Number="2" />
+                                        <Peripheral Type="I2C" Number="1" />
+                                        <Peripheral Type="SPI" Number="1" />
+                                    </Peripherals>
+                                </MCU>
+                            </MCU>
+                        </Line>
+                    </Lines>
+                </Series>
+            </Series>
+        </Company>
+    </Companies>
 </Repository>

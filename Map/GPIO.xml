@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
 	copyright 2021 misfra team
 	according to the apache-2.0 license, (hereinafter referred to as "license");
@@ -9,86 +9,86 @@
 	see the license for the specific language governing permissions and limitations under the license.
 -->
 <Map>
-	<Enumerate>
-		<Enumerate Name="md_gpio_mode_t">
-			<Comments>GPIO 模式</Comments>
-			<Values>
-				<Value Name="MD_GPIO_MODE_INPUT">
-					<Comments>输入模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_OUTPUT_PP">
-					<Comments>推挽输出模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_OUTPUT_OD">
-					<Comments>开漏输出模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_AF_PP">
-					<Comments>推挽复用模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_AF_OD">
-					<Comments>开漏复用模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_ANALOG">
-					<Comments>模拟模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_IRQ_RISING">
-					<Comments>上升沿中断模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_IRQ_FALLING">
-					<Comments>下降沿中断模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_IRQ_RISING_FALLING">
-					<Comments>上升沿下降沿中断模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_EVT_RISING">
-					<Comments>上升沿事件模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_EVT_FALLING">
-					<Comments>下降沿事件模式</Comments>
-				</Value>
-				<Value Name="MD_GPIO_MODE_EVT_RISING_FALLING">
-					<Comments>上升沿下降沿事件模式</Comments>
-				</Value>
-			</Values>
-		</Enumerate>
-		<Enumerate Name="md_gpio_speed_t">
-			<Comments>GPIO 最大速率</Comments>
-			<Values>
-				<Value Name="MD_GPIO_SPEED_LOW">
-					<Comments>低速</Comments>
-				</Value>
-				<Value Name="MD_GPIO_SPEED_MEDIUM">
-					<Comments>中速</Comments>
-				</Value>
-				<Value Name="MD_GPIO_SPEED_HIGH">
-					<Comments>高速</Comments>
-				</Value>
-			</Values>
-		</Enumerate>
-		<Enumerate Name="md_gpio_level_t">
-			<Comments>GPIO 输出电平</Comments>
-			<Values>
-				<Value Name="MD_GPIO_LEVEL_LOW">
-					<Comments>低电平</Comments>
-				</Value>
-				<Value Name="MD_GPIO_LEVEL_HIGH">
-					<Comments>高电平</Comments>
-				</Value>
-			</Values>
-		</Enumerate>
-		<Enumerate Name="md_gpio_pull_t">
-			<Comments>GPIO 钳位</Comments>
-			<Values>
-				<Value Name="MD_GPIO_PULL_NO">
-					<Comments>浮空</Comments>
-				</Value>
-				<Value Name="MD_GPIO_PULL_UP">
-					<Comments>上拉</Comments>
-				</Value>
-				<Value Name="MD_GPIO_PULL_DOWN">
-					<Comments>下拉</Comments>
-				</Value>
-			</Values>
-		</Enumerate>
-	</Enumerate>
+    <Enumerate>
+        <Enumerate Name="chal_gpio_mode_e">
+            <Comments>GPIO 模式</Comments>
+            <Values>
+                <Value Name="CHAL_GPIO_MODE_INPUT">
+                    <Comments>输入模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_OUTPUT_PP">
+                    <Comments>推挽输出模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_OUTPUT_OD">
+                    <Comments>开漏输出模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_AF_PP">
+                    <Comments>推挽复用模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_AF_OD">
+                    <Comments>开漏复用模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_ANALOG">
+                    <Comments>模拟模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_IRQ_RISING">
+                    <Comments>上升沿中断模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_IRQ_FALLING">
+                    <Comments>下降沿中断模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_IRQ_RISING_FALLING">
+                    <Comments>上升沿下降沿中断模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_EVT_RISING">
+                    <Comments>上升沿事件模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_EVT_FALLING">
+                    <Comments>下降沿事件模式</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_MODE_EVT_RISING_FALLING">
+                    <Comments>上升沿下降沿事件模式</Comments>
+                </Value>
+            </Values>
+        </Enumerate>
+        <Enumerate Name="chal_gpio_speed_e">
+            <Comments>GPIO 最大速率</Comments>
+            <Values>
+                <Value Name="CHAL_GPIO_SPEED_LOW">
+                    <Comments>低速</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_SPEED_MEDIUM">
+                    <Comments>中速</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_SPEED_HIGH">
+                    <Comments>高速</Comments>
+                </Value>
+            </Values>
+        </Enumerate>
+        <Enumerate Name="chal_gpio_level_e">
+            <Comments>GPIO 输出电平</Comments>
+            <Values>
+                <Value Name="CHAL_GPIO_LEVEL_LOW">
+                    <Comments>低电平</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_LEVEL_HIGH">
+                    <Comments>高电平</Comments>
+                </Value>
+            </Values>
+        </Enumerate>
+        <Enumerate Name="chal_gpio_pull_e">
+            <Comments>GPIO 钳位</Comments>
+            <Values>
+                <Value Name="CHAL_GPIO_PULL_NO">
+                    <Comments>浮空</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_PULL_UP">
+                    <Comments>上拉</Comments>
+                </Value>
+                <Value Name="CHAL_GPIO_PULL_DOWN">
+                    <Comments>下拉</Comments>
+                </Value>
+            </Values>
+        </Enumerate>
+    </Enumerate>
 </Map>
