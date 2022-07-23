@@ -85,6 +85,7 @@
                             <Value>CHAL_GPIO_SPEED_LOW</Value>
                             <Value>CHAL_GPIO_SPEED_MEDIUM</Value>
                             <Value>CHAL_GPIO_SPEED_HIGH</Value>
+                            <Value>CHAL_GPIO_SPEED_VERY_HIGH</Value>
                         </Values>
                     </Parameter>
                     <Parameter Enumerate="chal_gpio_mode_e">

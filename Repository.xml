@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    copyright 2021 misfra team
+    copyright 2021-2022 zhouquan
     according to the apache-2.0 license, (hereinafter referred to as "license");
 
     unless required by applicable law or agreed to in writing,
@@ -14,7 +14,7 @@
             <Series>
                 <Series Name="STM32F0">
                     <Lines>
-                        <Line Name="STM32F0x0 Value Line">
+                        <Line Name="STM32F0x0">
                             <MCU>
                                 <MCU Name="STM32F030C6Tx" Package="LQFP48" Core="Arm Cortex-M0" Frequency="48" Ram="4" IO="39" Flash="32">
                                     <Voltage Max="3.6" Min="2.4" />
@@ -30,6 +30,29 @@
                                         <Peripheral Type="USART" Number="1" />
                                     </Peripherals>
                                 </MCU>
+                            </MCU>
+                        </Line>
+                    </Lines>
+                </Series>
+                <Series Name="STM32F4">
+                    <Lines>
+                        <Line Name="STM32F401">
+                            <MCU>
+                                <Mcu Name="STM32F401RETx" Package="LQFP64" Core="Arm Cortex-M4" Frequency="84" Ram="96" IO="50" Flash="512">
+                                    <Voltage Max="3.6" Min="1.7" />
+                                    <Current Lowest="1.8" Run="137.0" />
+                                    <Temperature Max="105.0" Min="-40.0" />
+                                    <Peripheral Type="ADC 12-bit" Number="16" />
+                                    <Peripheral Type="I2C" Number="3" />
+                                    <Peripheral Type="I2S" Number="2" />
+                                    <Peripheral Type="RTC" Number="1" />
+                                    <Peripheral Type="SDIO" Number="1" />
+                                    <Peripheral Type="SPI" Number="3" />
+                                    <Peripheral Type="Timer 16-bit" Number="6" />
+                                    <Peripheral Type="Timer 32-bit" Number="2" />
+                                    <Peripheral Type="USART" Number="3" />
+                                    <Peripheral Type="USB OTG_FS" Number="1" />
+                                </Mcu>
                             </MCU>
                         </Line>
                     </Lines>
