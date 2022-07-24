@@ -9,6 +9,7 @@
     see the license for the specific language governing permissions and limitations under the license.
 -->
 <MCU Name="STM32F030C6Tx" Series="STM32F0" Line="STM32F0x0" ClockTree="STM32F0" HasPowerPad="false" IoType="" Package="LQFP48" Company="STMicroelectronics" Price="0">
+    <HAL Name="csp_hal_stm32f0" Version="latest" />
     <Introduction>具有32KB Flash和48MHz CPU的主流Arm Cortex-M0超值系列MCU</Introduction>
     <Illustrate>
         <![CDATA[

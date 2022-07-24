@@ -9,6 +9,7 @@
     see the license for the specific language governing permissions and limitations under the license.
 -->
 <MCU Name="STM32F401RETx" Series="STM32F4" Line="STM32F0x0" ClockTree="STM32F4_F401" HasPowerPad="false" IoType="" Package="LQFP64" Company="STMicroelectronics" Price="0">
+    <HAL Name="csp_hal_stm32f4" Version="latest" />
     <Introduction>带DSP和FPU的STM32动态效率ARM Cortex-M4 MCU，具有最大512 KB Flash、84 MHz CPU和ART加速器</Introduction>
     <Illustrate>
         <![CDATA[
