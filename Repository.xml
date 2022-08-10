@@ -42,16 +42,18 @@
                                     <Voltage Max="3.6" Min="1.7" />
                                     <Current Lowest="1.8" Run="137.0" />
                                     <Temperature Max="105.0" Min="-40.0" />
-                                    <Peripheral Type="ADC 12-bit" Number="16" />
-                                    <Peripheral Type="I2C" Number="3" />
-                                    <Peripheral Type="I2S" Number="2" />
-                                    <Peripheral Type="RTC" Number="1" />
-                                    <Peripheral Type="SDIO" Number="1" />
-                                    <Peripheral Type="SPI" Number="3" />
-                                    <Peripheral Type="Timer 16-bit" Number="6" />
-                                    <Peripheral Type="Timer 32-bit" Number="2" />
-                                    <Peripheral Type="USART" Number="3" />
-                                    <Peripheral Type="USB OTG_FS" Number="1" />
+                                    <Peripherals>
+                                        <Peripheral Type="ADC 12-bit" Number="16" />
+                                        <Peripheral Type="I2C" Number="3" />
+                                        <Peripheral Type="I2S" Number="2" />
+                                        <Peripheral Type="RTC" Number="1" />
+                                        <Peripheral Type="SDIO" Number="1" />
+                                        <Peripheral Type="SPI" Number="3" />
+                                        <Peripheral Type="Timer 16-bit" Number="6" />
+                                        <Peripheral Type="Timer 32-bit" Number="2" />
+                                        <Peripheral Type="USART" Number="3" />
+                                        <Peripheral Type="USB OTG_FS" Number="1" />
+                                    </Peripherals>
                                 </MCU>
                             </MCU>
                         </Line>
@@ -63,7 +65,7 @@
             <Series>
                 <Series Name="GD32F1">
                     <Lines>
-                        <Line Name="GD32F101 Value Line">
+                        <Line Name="GD32F101">
                             <MCU>
                                 <MCU Name="GD32F101T4U6" Package="QFN36" Core="Arm Cortex-M3" Frequency="56" Ram="4" IO="26" Flash="16">
                                     <Voltage Max="3.6" Min="2.6" />
@@ -78,6 +80,38 @@
                                         <Peripheral Type="USART" Number="2" />
                                         <Peripheral Type="I2C" Number="1" />
                                         <Peripheral Type="SPI" Number="1" />
+                                    </Peripherals>
+                                </MCU>
+                            </MCU>
+                        </Line>
+                    </Lines>
+                </Series>
+            </Series>
+        </Company>
+        <Company Name="Geehy">
+            <Series>
+                <Series Name="APM32F1">
+                    <Lines>
+                        <Line Name="APM32F103">
+                            <MCU>
+                                <MCU Name="APM32F103ZET6" Package="LQFP144" Core="Arm Cortex-M3" Frequency="96" Ram="128" IO="112" Flash="512">
+                                    <Voltage Max="3.6" Min="2.0" />
+                                    <Current Lowest="1.9" Run="421.0" />
+                                    <Temperature Max="105.0" Min="-40.0" />
+                                    <Peripherals>
+                                        <Peripheral Type="ADC 12-bit" Number="21" />
+                                        <Peripheral Type="CAN" Number="1" />
+                                        <Peripheral Type="DAC 12-bit" Number="2" />
+                                        <Peripheral Type="FSMC" Number="1" />
+                                        <Peripheral Type="I2C" Number="2" />
+                                        <Peripheral Type="I2S" Number="2" />
+                                        <Peripheral Type="RTC" Number="1" />
+                                        <Peripheral Type="SDIO" Number="1" />
+                                        <Peripheral Type="SPI" Number="3" />
+                                        <Peripheral Type="Timer 16-bit" Number="8" />
+                                        <Peripheral Type="UART" Number="2" />
+                                        <Peripheral Type="USART" Number="3" />
+                                        <Peripheral Type="USB Device" Number="1" />
                                     </Peripherals>
                                 </MCU>
                             </MCU>
