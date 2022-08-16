@@ -52,33 +52,6 @@
                 </Series>
             </Series>
         </Company>
-        <Company Name="GigaDevice">
-            <Series>
-                <Series Name="GD32F1">
-                    <Lines>
-                        <Line Name="GD32F101">
-                            <MCU>
-                                <MCU Name="GD32F101T4U6" Package="QFN36" Core="Arm Cortex-M3" Frequency="56" Ram="4" IO="26" Flash="16">
-                                    <Voltage Max="3.6" Min="2.6" />
-                                    <Current Lowest="6.5" Run="1700.0" />
-                                    <Temperature Max="85.0" Min="-40.0" />
-                                    <Peripherals>
-                                        <Peripheral Type="ADC 12-bit" Number="10" />
-                                        <Peripheral Type="GPTM(16 bit)" Number="2" />
-                                        <Peripheral Type="SysTick" Number="1" />
-                                        <Peripheral Type="Watchdog" Number="2" />
-                                        <Peripheral Type="RTC" Number="1" />
-                                        <Peripheral Type="USART" Number="2" />
-                                        <Peripheral Type="I2C" Number="1" />
-                                        <Peripheral Type="SPI" Number="1" />
-                                    </Peripherals>
-                                </MCU>
-                            </MCU>
-                        </Line>
-                    </Lines>
-                </Series>
-            </Series>
-        </Company>
         <Company Name="Geehy">
             <Series>
                 <Series Name="APM32F1">
