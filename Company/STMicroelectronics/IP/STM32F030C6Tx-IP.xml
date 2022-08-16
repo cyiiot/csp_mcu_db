@@ -13,14 +13,14 @@
         <Modes>
             <Mode Type="Input" Name="Input-Std">
                 <Parameters>
-                    <Parameter Enumerate="chal_gpio_pull_e">
+                    <Parameter Group="chal_gpio_pull_e">
                         <Values>
                             <Value>CHAL_GPIO_PULL_NO</Value>
                             <Value>CHAL_GPIO_PULL_UP</Value>
                             <Value>CHAL_GPIO_PULL_DOWN</Value>
                         </Values>
                     </Parameter>
-                    <Parameter Enumerate="chal_gpio_mode_e">
+                    <Parameter Group="chal_gpio_mode_e">
                         <Values>
                             <Value>CHAL_GPIO_MODE_INPUT</Value>
                         </Values>
@@ -29,27 +29,27 @@
             </Mode>
             <Mode Type="Output" Name="Output-Std">
                 <Parameters>
-                    <Parameter Enumerate="chal_gpio_level_e">
+                    <Parameter Group="chal_gpio_level_e">
                         <Values>
                             <Value>CHAL_GPIO_LEVEL_LOW</Value>
                             <Value>CHAL_GPIO_LEVEL_HIGH</Value>
                         </Values>
                     </Parameter>
-                    <Parameter Enumerate="chal_gpio_speed_e">
+                    <Parameter Group="chal_gpio_speed_e">
                         <Values>
                             <Value>CHAL_GPIO_SPEED_LOW</Value>
                             <Value>CHAL_GPIO_SPEED_MEDIUM</Value>
                             <Value>CHAL_GPIO_SPEED_HIGH</Value>
                         </Values>
                     </Parameter>
-                    <Parameter Enumerate="chal_gpio_pull_e">
+                    <Parameter Group="chal_gpio_pull_e">
                         <Values>
                             <Value>CHAL_GPIO_PULL_NO</Value>
                             <Value>CHAL_GPIO_PULL_UP</Value>
                             <Value>CHAL_GPIO_PULL_DOWN</Value>
                         </Values>
                     </Parameter>
-                    <Parameter Enumerate="chal_gpio_mode_e">
+                    <Parameter Group="chal_gpio_mode_e">
                         <Values>
                             <Value>CHAL_GPIO_MODE_OUTPUT_PP</Value>
                             <Value>CHAL_GPIO_MODE_OUTPUT_OD</Value>
@@ -59,12 +59,12 @@
             </Mode>
             <Mode Type="Analog" Name="Analog-Std">
                 <Parameters>
-                    <Parameter Enumerate="chal_gpio_pull_e">
+                    <Parameter Group="chal_gpio_pull_e">
                         <Values>
                             <Value>CHAL_GPIO_PULL_NO</Value>
                         </Values>
                     </Parameter>
-                    <Parameter Enumerate="chal_gpio_mode_e">
+                    <Parameter Group="chal_gpio_mode_e">
                         <Values>
                             <Value>CHAL_GPIO_MODE_ANALOG</Value>
                         </Values>
@@ -73,21 +73,21 @@
             </Mode>
             <Mode Type="EVENTOUT" Name="Eventout-Std">
                 <Parameters>
-                    <Parameter Enumerate="chal_gpio_pull_e">
+                    <Parameter Group="chal_gpio_pull_e">
                         <Values>
                             <Value>CHAL_GPIO_PULL_NO</Value>
                             <Value>CHAL_GPIO_PULL_UP</Value>
                             <Value>CHAL_GPIO_PULL_DOWN</Value>
                         </Values>
                     </Parameter>
-                    <Parameter Enumerate="chal_gpio_speed_e">
+                    <Parameter Group="chal_gpio_speed_e">
                         <Values>
                             <Value>CHAL_GPIO_SPEED_LOW</Value>
                             <Value>CHAL_GPIO_SPEED_MEDIUM</Value>
                             <Value>CHAL_GPIO_SPEED_HIGH</Value>
                         </Values>
                     </Parameter>
-                    <Parameter Enumerate="chal_gpio_mode_e">
+                    <Parameter Group="chal_gpio_mode_e">
                         <Values>
                             <Value>CHAL_GPIO_MODE_AF_PP</Value>
                         </Values>
@@ -96,14 +96,14 @@
             </Mode>
             <Mode Type="EXTI" Name="Exti-Std">
                 <Parameters>
-                    <Parameter Enumerate="chal_gpio_pull_e">
+                    <Parameter Group="chal_gpio_pull_e">
                         <Values>
                             <Value>CHAL_GPIO_PULL_NO</Value>
                             <Value>CHAL_GPIO_PULL_UP</Value>
                             <Value>CHAL_GPIO_PULL_DOWN</Value>
                         </Values>
                     </Parameter>
-                    <Parameter Enumerate="chal_gpio_mode_e">
+                    <Parameter Group="chal_gpio_mode_e">
                         <Values>
                             <Value>CHAL_GPIO_MODE_IRQ_RISING</Value>
                             <Value>CHAL_GPIO_MODE_IRQ_FALLING</Value>

@@ -9,8 +9,8 @@
     see the license for the specific language governing permissions and limitations under the license.
 -->
 <Map>
-    <Enumerate>
-        <Enumerate Name="chal_gpio_mode_e">
+    <Groups>
+        <Group Name="chal_gpio_mode_e">
             <Comments>GPIO 模式</Comments>
             <Values>
                 <Value Name="CHAL_GPIO_MODE_INPUT">
@@ -50,8 +50,8 @@
                     <Comments>上升沿下降沿事件模式</Comments>
                 </Value>
             </Values>
-        </Enumerate>
-        <Enumerate Name="chal_gpio_speed_e">
+        </Group>
+        <Group Name="chal_gpio_speed_e">
             <Comments>GPIO 最大速率</Comments>
             <Values>
                 <Value Name="CHAL_GPIO_SPEED_LOW">
@@ -67,8 +67,8 @@
                     <Comments>快高速</Comments>
                 </Value>
             </Values>
-        </Enumerate>
-        <Enumerate Name="chal_gpio_level_e">
+        </Group>
+        <Group Name="chal_gpio_level_e">
             <Comments>GPIO 输出电平</Comments>
             <Values>
                 <Value Name="CHAL_GPIO_LEVEL_LOW">
@@ -78,8 +78,8 @@
                     <Comments>高电平</Comments>
                 </Value>
             </Values>
-        </Enumerate>
-        <Enumerate Name="chal_gpio_pull_e">
+        </Group>
+        <Group Name="chal_gpio_pull_e">
             <Comments>GPIO 钳位</Comments>
             <Values>
                 <Value Name="CHAL_GPIO_PULL_NO">
@@ -92,6 +92,32 @@
                     <Comments>下拉</Comments>
                 </Value>
             </Values>
-        </Enumerate>
-    </Enumerate>
+        </Group>
+    </Groups>
+    <Properties>
+        <Property Group="chal_gpio_mode_e">
+            <DisplayName>模式</DisplayName>
+            <Description>GPIO-模式</Description>
+            <Category>GPIO</Category>
+            <ReadOnly>false</ReadOnly>
+        </Property>
+        <Property Group="chal_gpio_speed_e">
+            <DisplayName>速度</DisplayName>
+            <Description>GPIO-速度</Description>
+            <Category>GPIO</Category>
+            <ReadOnly>false</ReadOnly>
+        </Property>
+        <Property Group="chal_gpio_level_e">
+            <DisplayName>电平</DisplayName>
+            <Description>GPIO-电平</Description>
+            <Category>GPIO</Category>
+            <ReadOnly>false</ReadOnly>
+        </Property>
+        <Property Group="chal_gpio_pull_e">
+            <DisplayName>钳位</DisplayName>
+            <Description>GPIO-钳位</Description>
+            <Category>GPIO</Category>
+            <ReadOnly>false</ReadOnly>
+        </Property>
+    </Properties>
 </Map>
