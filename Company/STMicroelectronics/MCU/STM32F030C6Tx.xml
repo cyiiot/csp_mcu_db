@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    copyright 2021-2022 zhouquan
-    according to the apache-2.0 license, (hereinafter referred to as "license");
-
-    unless required by applicable law or agreed to in writing,
-    software distributed under the license is distributed on an "as is" basis,
-    without warranties or conditions of any kind, either express or implied.
-    see the license for the specific language governing permissions and limitations under the license.
--->
-<MCU Name="STM32F030C6Tx" Series="STM32F0" Line="STM32F0x0" ClockTree="STM32F0" HasPowerPad="false" IoType="" Package="LQFP48" Company="STMicroelectronics" Price="0">
+<MCU Name="STM32F030C6Tx" Series="STM32F0" Line="STM32F0x0" ClockTree="STM32F0" HasPowerPad="false" IoType="" Package="LQFP48" Company="STMicroelectronics" Price="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <HAL Name="csp_hal_stm32f0" Version="latest" />
     <Introduction>具有32KB Flash和48MHz CPU的主流Arm Cortex-M0超值系列MCU</Introduction>
     <Illustrate>
