@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MCU Name="STM32F401RETx" Series="STM32F4" Line="STM32F0x0" ClockTree="STM32F4_F401" HasPowerPad="false" IoType="" Package="LQFP64" Company="STMicroelectronics" Price="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <HAL Name="csp_hal_stm32f4" Version="latest" />
+    <CompanyUrl>https://www.st.com/content/st_com/zh.html</CompanyUrl>
+    <RepositoryUrl>https://github.com/xqyjlj/csp_hal_stm32f4</RepositoryUrl>
     <Introduction>带DSP和FPU的STM32动态效率ARM Cortex-M4 MCU，具有最大512 KB Flash、84 MHz CPU和ART加速器</Introduction>
     <Illustrate>
         <![CDATA[
