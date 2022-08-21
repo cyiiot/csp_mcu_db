@@ -43,7 +43,6 @@
                     <Parameter Group="chal_gpio_mode">
                         <Values>
                             <Value>CHAL_GPIO_MODE_OUTPUT</Value>
-                            <Value>CHAL_GPIO_MODE_OUTPUT</Value>
                         </Values>
                     </Parameter>
                     <Parameter Group="chal_gpio_output_type">

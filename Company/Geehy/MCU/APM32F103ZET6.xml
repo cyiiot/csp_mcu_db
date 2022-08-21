@@ -140,7 +140,7 @@ APM32F103xDxE系列MCU，基于32位Arm® Cortex®-M3内核，最高工作主频
             </Functions>
         </Pin>
         <Pin Name="VBAT" Position="6" Type="Power" />
-        <Pin Name="PC13-TAMPER-RTC" Position="7" Type="I/O">
+        <Pin Name="PC13" Position="7" Type="I/O">
             <Functions>
                 <Function Name="RTC_OUT" />
                 <Function Name="RTC_TAMPER" />
@@ -151,7 +151,7 @@ APM32F103xDxE系列MCU，基于32位Arm® Cortex®-M3内核，最高工作主频
                 <Function Name="GPIO-EXTI" Type="GPIO" Mode="Exti-Std" />
             </Functions>
         </Pin>
-        <Pin Name="PC14-OSC32_IN" Position="8" Type="I/O">
+        <Pin Name="PC14" Position="8" Type="I/O">
             <Functions>
                 <Function Name="RCC_OSC32_IN" />
                 <Function Name="GPIO-Input" Type="GPIO" Mode="Input-Std" />
@@ -161,7 +161,7 @@ APM32F103xDxE系列MCU，基于32位Arm® Cortex®-M3内核，最高工作主频
                 <Function Name="GPIO-EXTI" Type="GPIO" Mode="Exti-Std" />
             </Functions>
         </Pin>
-        <Pin Name="PC15-OSC32_OUT" Position="9" Type="I/O">
+        <Pin Name="PC15" Position="9" Type="I/O">
             <Functions>
                 <Function Name="ADC1_EXTI15" />
                 <Function Name="ADC2_EXTI15" />
@@ -280,10 +280,10 @@ APM32F103xDxE系列MCU，基于32位Arm® Cortex®-M3内核，最高工作主频
                 <Function Name="GPIO-EXTI" Type="GPIO" Mode="Exti-Std" />
             </Functions>
         </Pin>
-        <Pin Name="OSC_IN" Position="23" Type="MonoIO">
+        <Pin Name="PD0" Position="23" Type="MonoIO">
             <Function Name="RCC_OSC_IN" />
         </Pin>
-        <Pin Name="OSC_OUT" Position="24" Type="MonoIO">
+        <Pin Name="PD1" Position="24" Type="MonoIO">
             <Function Name="RCC_OSC_OUT" />
         </Pin>
         <Pin Name="NRST" Position="25" Type="Reset" />
