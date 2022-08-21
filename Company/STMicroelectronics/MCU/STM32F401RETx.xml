@@ -6,9 +6,9 @@
     <Introduction>带DSP和FPU的STM32动态效率ARM Cortex-M4 MCU，具有最大512 KB Flash、84 MHz CPU和ART加速器</Introduction>
     <Illustrate>
         <![CDATA[
-    STM32F401xD/xE 器件基于高性能 ARM®Cortex®-M4 32 位 RISC 内核，工作频率高达 84 MHz。 其 Cortex®-M4 内核具有浮点单元 (FPU) 单精度，支持所有 ARM 单精度数据处理指令和数据类型。 它还实现了全套 DSP 指令和增强应用程序安全性的内存保护单元 (MPU)。
+STM32F401xD/xE 器件基于高性能 ARM®Cortex®-M4 32 位 RISC 内核，工作频率高达 84 MHz。 其 Cortex®-M4 内核具有浮点单元 (FPU) 单精度，支持所有 ARM 单精度数据处理指令和数据类型。 它还实现了全套 DSP 指令和增强应用程序安全性的内存保护单元 (MPU)。
 
-    STM32F401xD/xE 包含高速嵌入式存储器（512 KB 闪存、96 KB SRAM），以及连接到两条 APB 总线、两条 AHB 总线和一个 32 位多路 AHB 总线矩阵。所有器件均提供一个 12 位 ADC、一个低功耗 RTC、六个通用 16 位定时器，包括一个用于电机控制的 PWM 定时器、两个通用 32 位定时器。 它们还具有标准和高级通信接口。
+STM32F401xD/xE 包含高速嵌入式存储器（512 KB 闪存、96 KB SRAM），以及连接到两条 APB 总线、两条 AHB 总线和一个 32 位多路 AHB 总线矩阵。所有器件均提供一个 12 位 ADC、一个低功耗 RTC、六个通用 16 位定时器，包括一个用于电机控制的 PWM 定时器、两个通用 32 位定时器。 它们还具有标准和高级通信接口。
         ]]>
     </Illustrate>
     <Url>https://www.st.com/zh/microcontrollers-microprocessors/stm32f401re.html</Url>
